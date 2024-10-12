@@ -1,0 +1,60 @@
+
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myh{
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px -4px 5px black;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.card{
+    border-radius: 20px;
+    padding: 10px !important;
+    text-align: center;
+    background: rgb(123,251,197);
+    color: white !important;
+    background-color: transparent;
+}
+.card ul li{
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: decimal;
+}
+form input{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px ;
+}
+form input:focus{
+    border: 3px solid  darkgoldenrod;
+}
+form button{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 5px;
+    background-color: darkgoldenrod;
+
+    color: white;
+    font-weight: bold;
+    
+}
+form button:hover{
+    background-color: rgb(148, 109, 9);
+}
