@@ -5,6 +5,7 @@ let ul = document.getElementById('my-ul');
 
     let savedItems = localStorage.getItem('li');
     if (savedItems) {
+        
         ul.innerHTML = JSON.parse(savedItems);  
     }
    
@@ -26,6 +27,7 @@ form.addEventListener('submit', (event) => {
     
 
     localStorage.setItem('li', JSON.stringify(ul.innerHTML));
+  
 
     event.target[0].value = '';
 });
