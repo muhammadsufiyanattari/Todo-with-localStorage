@@ -24,11 +24,11 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     padding: 10px !important;
     text-align: center;
     background: rgb(123,251,197);
-    color: white !important;
+    /* color: white !important; */
     background-color: transparent;
 }
 .card ul li{
-    background-color: darkgoldenrod;
+    background-color: white;
     border-radius: 10px;
     margin-top: 10px;
     font-weight: bold;
@@ -36,12 +36,14 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     list-style: decimal;
 }
 form input{
-    background-color:darkgoldenrod ;
+    background-color:white ;
     margin-top: 10px;
     outline: none;
+    padding: 8px;
     border: none;
     border-radius: 10px ;
 }
+
 form input:focus{
     border: 1px solid  black;
 }
@@ -49,14 +51,14 @@ form button{
     outline: none;
     border: none;
     border-radius: 10px;
-    padding: 3px 5px;
-    background-color: darkgoldenrod;
-
+    padding: 8px;
+    background-color: rgb(210, 18, 18);
+font-size: 18px;
     color: white;
     font-weight: bold;
     
 }
 form button:hover{
     
-    background-color: rgb(148, 109, 9);
+    background-color: rgb(158, 10, 10);
 }
