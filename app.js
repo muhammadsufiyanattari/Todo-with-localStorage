@@ -18,6 +18,7 @@ form.addEventListener("submit", (event) => {
   li.className = "todo-li";
 
   ul.appendChild(li);
+  
 
   localStorage.setItem("li", JSON.stringify(ul.innerHTML));
 
